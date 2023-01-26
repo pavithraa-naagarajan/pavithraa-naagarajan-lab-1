@@ -33,4 +33,37 @@ public class AddTest {
         int actual = a.addNumbers(input1, input2);
         Assert.assertEquals(expected, actual);
     }
+     /**
+     * If addNumbers is passed in 3 and 4, it should return 7.
+     */
+    @Test
+    public void addTest3(){
+        int input1 = 3;
+        int input2 = 4;
+        int expected = 7;
+        int actual = a.addNumbers(input1, input2);
+        Assert.assertEquals(expected, actual);
+    }
+     /**
+     * If addNumbers is passed in 3 and 4, it should return 7.
+     */
+    @Test
+    public void addTest4(){
+        int input1 = 3;
+        int input2 = 4;
+        int expected = 7;
+        int actual = a.addNumbers(input1, input2);
+        Assert.assertEquals(expected, actual);
+    }
+     /**
+     * If addNumbers is passed in 3 and 4, it should return 7.
+     */
+    @Test
+    public void addTest5(){
+        int input1 = 3;
+        int input2 = 4;
+        int expected = 7;
+        int actual = a.addNumbers(input1, input2);
+        Assert.assertEquals(expected, actual);
+    }
 }
